@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuenta</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 400px;
+            text-align: center;
+            margin: 20px auto; /* Centra la tabla en la página */
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px; /* Aumenté el padding para mejor legibilidad */
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .titulo {
+            font-weight: bold;
+            text-align: center;
+            background-color: #ddd;
+        }
+        .total {
+            font-weight: bold;
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th colspan="4" class="titulo">Boleta de Pago</th>
+        </tr>
+        <tr>
+            <th>Producto</th>
+            <th>Cantidad</th>
+            <th>Precio Unitario</th>
+            <th>Total</th>
+        </tr>
+        <tr>
+            <td>Producto 1</td>
+            <td>1</td>
+            <td>5</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>Producto 2</td>
+            <td>3</td>
+            <td>2</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td>Producto 3</td>
+            <td>2</td>
+            <td>3.5</td>
+            <td>7</td>
+        </tr>
+        <tr>
+            <td colspan="3" class="total">Total General</td>
+            <td>18</td>
+        </tr>
+    </table>
+</body>
+</html>
